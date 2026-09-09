@@ -1,0 +1,6 @@
+CompileFlags:
+  Add:
+    - -xc++-header
+    - -std=c++17
+    - -I/home/tantham-tanthuvanit/projects/AstronomyFramework
+    - -I/home/tantham-tanthuvanit/projects/AstronomyFramework/include

@@ -1,0 +1,12 @@
+[
+	{
+		"name": "multiply scientific notation",
+		"input": [[2,10],[2,5]],
+		"output": [4,15]
+	},
+	{
+		"name": "divide scientific notation",
+		"input": [[4,10],[2,5]],
+		"output": [2,5]
+	}
+]

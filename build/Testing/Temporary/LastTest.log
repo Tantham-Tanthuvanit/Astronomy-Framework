@@ -1,0 +1,18 @@
+Start testing: Sep 09 15:42 +07
+----------------------------------------------------------
+1/1 Testing: unit_tests
+1/1 Test: unit_tests
+Command: "/home/tantham-tanthuvanit/projects/AstronomyFramework/build/unit_tests_runner"
+Directory: /home/tantham-tanthuvanit/projects/AstronomyFramework/build
+"unit_tests" start time: Sep 09 15:42 +07
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"unit_tests" end time: Sep 09 15:42 +07
+"unit_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Sep 09 15:42 +07
