@@ -1,145 +1,130 @@
-astronomy_framework: \
-  /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o \
-  /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o \
-  /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o \
+bin/astronomy_framework: \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o \
   CMakeFiles/astronomy_framework.dir/src/main.cpp.o \
-  CMakeFiles/astronomy_framework.dir/src/orbital_mechanics/gravity.cpp.o \
-  CMakeFiles/astronomy_framework.dir/src/orbital_mechanics/keplers_laws.cpp.o \
-  CMakeFiles/astronomy_framework.dir/src/orbital_mechanics/misc.cpp.o \
-  _deps/raylib-build/raylib/libraylib.a \
-  /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/libpthread.a \
-  /usr/lib/x86_64-linux-gnu/libOpenGL.so \
-  /usr/lib/x86_64-linux-gnu/libGLX.so \
-  _deps/raylib-build/raylib/external/glfw/src/libglfw3.a \
-  /usr/lib/x86_64-linux-gnu/librt.a \
-  /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/libm.so \
-  /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/libm.so \
-  /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/libm.so \
-  /usr/lib/x86_64-linux-gnu/libm.so.6 \
-  /usr/lib/x86_64-linux-gnu/libmvec.so.1 \
-  /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/libdl.a \
-  /usr/lib/gcc/x86_64-linux-gnu/15/libstdc++.so \
-  /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/libm.so \
-  /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/libm.so \
-  /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/libm.so \
-  /usr/lib/x86_64-linux-gnu/libm.so.6 \
-  /usr/lib/x86_64-linux-gnu/libmvec.so.1 \
-  /usr/lib/gcc/x86_64-linux-gnu/15/libgcc_s.so \
-  /usr/lib/gcc/x86_64-linux-gnu/15/libgcc_s.so \
-  /usr/lib/gcc/x86_64-linux-gnu/15/libgcc_s.so \
-  /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/libgcc_s.so.1 \
-  /usr/lib/gcc/x86_64-linux-gnu/15/libgcc.a \
-  /usr/lib/gcc/x86_64-linux-gnu/15/libgcc.a \
-  /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/libc.so \
-  /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/libc.so \
-  /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/libc.so \
-  /usr/lib/x86_64-linux-gnu/libc.so.6 \
-  /usr/lib/x86_64-linux-gnu/libc_nonshared.a \
-  /lib64/ld-linux-x86-64.so.2 \
-  /usr/lib/gcc/x86_64-linux-gnu/15/libgcc_s.so \
-  /usr/lib/gcc/x86_64-linux-gnu/15/libgcc_s.so \
-  /usr/lib/gcc/x86_64-linux-gnu/15/libgcc_s.so \
-  /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/libgcc_s.so.1 \
-  /usr/lib/gcc/x86_64-linux-gnu/15/libgcc.a \
-  /usr/lib/gcc/x86_64-linux-gnu/15/libgcc.a \
-  /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o \
-  /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o \
-  /usr/lib/x86_64-linux-gnu/libm.so.6 \
-  /lib64/ld-linux-x86-64.so.2 \
-  /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/libgcc_s.so.1
+  libastronomy_core.a \
+  /usr/lib/libraylib.so.6.0.0 \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/libpthread.a \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/libdl.a \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16/libstdc++.so \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/libm.so \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/libm.so \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/libm.so \
+  /usr/lib/libm.so.6 \
+  /usr/lib/libmvec.so.1 \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16/libgcc_s.so \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16/libgcc_s.so \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16/libgcc_s.so \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/libgcc_s.so.1 \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16/libgcc.a \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16/libgcc.a \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16/libatomic_asneeded.so \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16/libatomic_asneeded.so \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16/libatomic_asneeded.so \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16/libatomic.so \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/libc.so \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/libc.so \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/libc.so \
+  /usr/lib/libc.so.6 \
+  /usr/lib/libc_nonshared.a \
+  /usr/lib/ld-linux-x86-64.so.2 \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16/libgcc_s.so \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16/libgcc_s.so \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16/libgcc_s.so \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/libgcc_s.so.1 \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16/libgcc.a \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16/libgcc.a \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o \
+  /usr/lib/libX11.so.6 \
+  /usr/lib/ld-linux-x86-64.so.2 \
+  /usr/lib/libxcb.so.1 \
+  /usr/lib/libXau.so.6 \
+  /usr/lib/libXdmcp.so.6
 
-/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o:
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o:
 
-/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o:
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o:
 
-/usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o:
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o:
 
 CMakeFiles/astronomy_framework.dir/src/main.cpp.o:
 
-CMakeFiles/astronomy_framework.dir/src/orbital_mechanics/gravity.cpp.o:
+libastronomy_core.a:
 
-CMakeFiles/astronomy_framework.dir/src/orbital_mechanics/keplers_laws.cpp.o:
+/usr/lib/libraylib.so.6.0.0:
 
-CMakeFiles/astronomy_framework.dir/src/orbital_mechanics/misc.cpp.o:
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/libpthread.a:
 
-_deps/raylib-build/raylib/libraylib.a:
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/libdl.a:
 
-/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/libpthread.a:
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/libstdc++.so:
 
-/usr/lib/x86_64-linux-gnu/libOpenGL.so:
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/libm.so:
 
-/usr/lib/x86_64-linux-gnu/libGLX.so:
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/libm.so:
 
-_deps/raylib-build/raylib/external/glfw/src/libglfw3.a:
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/libm.so:
 
-/usr/lib/x86_64-linux-gnu/librt.a:
+/usr/lib/libm.so.6:
 
-/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/libm.so:
+/usr/lib/libmvec.so.1:
 
-/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/libm.so:
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/libgcc_s.so:
 
-/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/libm.so:
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/libgcc_s.so:
 
-/usr/lib/x86_64-linux-gnu/libm.so.6:
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/libgcc_s.so:
 
-/usr/lib/x86_64-linux-gnu/libmvec.so.1:
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/libgcc_s.so.1:
 
-/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/libdl.a:
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/libgcc.a:
 
-/usr/lib/gcc/x86_64-linux-gnu/15/libstdc++.so:
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/libgcc.a:
 
-/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/libm.so:
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/libatomic_asneeded.so:
 
-/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/libm.so:
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/libatomic_asneeded.so:
 
-/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/libm.so:
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/libatomic_asneeded.so:
 
-/usr/lib/x86_64-linux-gnu/libm.so.6:
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/libatomic.so:
 
-/usr/lib/x86_64-linux-gnu/libmvec.so.1:
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/libc.so:
 
-/usr/lib/gcc/x86_64-linux-gnu/15/libgcc_s.so:
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/libc.so:
 
-/usr/lib/gcc/x86_64-linux-gnu/15/libgcc_s.so:
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/libc.so:
 
-/usr/lib/gcc/x86_64-linux-gnu/15/libgcc_s.so:
+/usr/lib/libc.so.6:
 
-/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/libgcc_s.so.1:
+/usr/lib/libc_nonshared.a:
 
-/usr/lib/gcc/x86_64-linux-gnu/15/libgcc.a:
+/usr/lib/ld-linux-x86-64.so.2:
 
-/usr/lib/gcc/x86_64-linux-gnu/15/libgcc.a:
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/libgcc_s.so:
 
-/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/libc.so:
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/libgcc_s.so:
 
-/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/libc.so:
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/libgcc_s.so:
 
-/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/libc.so:
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/libgcc_s.so.1:
 
-/usr/lib/x86_64-linux-gnu/libc.so.6:
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/libgcc.a:
 
-/usr/lib/x86_64-linux-gnu/libc_nonshared.a:
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/libgcc.a:
 
-/lib64/ld-linux-x86-64.so.2:
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o:
 
-/usr/lib/gcc/x86_64-linux-gnu/15/libgcc_s.so:
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o:
 
-/usr/lib/gcc/x86_64-linux-gnu/15/libgcc_s.so:
+/usr/lib/libX11.so.6:
 
-/usr/lib/gcc/x86_64-linux-gnu/15/libgcc_s.so:
+/usr/lib/ld-linux-x86-64.so.2:
 
-/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/libgcc_s.so.1:
+/usr/lib/libxcb.so.1:
 
-/usr/lib/gcc/x86_64-linux-gnu/15/libgcc.a:
+/usr/lib/libXau.so.6:
 
-/usr/lib/gcc/x86_64-linux-gnu/15/libgcc.a:
-
-/usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o:
-
-/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o:
-
-/usr/lib/x86_64-linux-gnu/libm.so.6:
-
-/lib64/ld-linux-x86-64.so.2:
-
-/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/libgcc_s.so.1:
+/usr/lib/libXdmcp.so.6:

@@ -8,11 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/tantham-tanthuvanit/projects/AstronomyFramework/src/main.cpp" "CMakeFiles/astronomy_framework.dir/src/main.cpp.o" "gcc" "CMakeFiles/astronomy_framework.dir/src/main.cpp.o.d"
-  "/home/tantham-tanthuvanit/projects/AstronomyFramework/src/orbital_mechanics/gravity.cpp" "CMakeFiles/astronomy_framework.dir/src/orbital_mechanics/gravity.cpp.o" "gcc" "CMakeFiles/astronomy_framework.dir/src/orbital_mechanics/gravity.cpp.o.d"
-  "/home/tantham-tanthuvanit/projects/AstronomyFramework/src/orbital_mechanics/keplers_laws.cpp" "CMakeFiles/astronomy_framework.dir/src/orbital_mechanics/keplers_laws.cpp.o" "gcc" "CMakeFiles/astronomy_framework.dir/src/orbital_mechanics/keplers_laws.cpp.o.d"
-  "/home/tantham-tanthuvanit/projects/AstronomyFramework/src/orbital_mechanics/misc.cpp" "CMakeFiles/astronomy_framework.dir/src/orbital_mechanics/misc.cpp.o" "gcc" "CMakeFiles/astronomy_framework.dir/src/orbital_mechanics/misc.cpp.o.d"
-  "" "astronomy_framework" "gcc" "CMakeFiles/astronomy_framework.dir/link.d"
+  "/home/tan/projects/Astronomy-Framework/src/main.cpp" "CMakeFiles/astronomy_framework.dir/src/main.cpp.o" "gcc" "CMakeFiles/astronomy_framework.dir/src/main.cpp.o.d"
+  "" "bin/astronomy_framework" "gcc" "CMakeFiles/astronomy_framework.dir/link.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

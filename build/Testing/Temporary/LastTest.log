@@ -1,18 +1,20 @@
-Start testing: Sep 09 15:42 +07
+Start testing: Sep 09 22:43 +07
 ----------------------------------------------------------
 1/1 Testing: unit_tests
 1/1 Test: unit_tests
-Command: "/home/tantham-tanthuvanit/projects/AstronomyFramework/build/unit_tests_runner"
-Directory: /home/tantham-tanthuvanit/projects/AstronomyFramework/build
-"unit_tests" start time: Sep 09 15:42 +07
+Command: "/home/tan/projects/Astronomy-Framework/build/bin/unit_tests_runner"
+Directory: /home/tan/projects/Astronomy-Framework/build/bin
+"unit_tests" start time: Sep 09 22:43 +07
 Output:
 ----------------------------------------------------------
+"multiply scientific notation"
+"divide scientific notation"
 <end of output>
-Test time =   0.01 sec
+Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"unit_tests" end time: Sep 09 15:42 +07
+"unit_tests" end time: Sep 09 22:43 +07
 "unit_tests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Sep 09 15:42 +07
+End testing: Sep 09 22:43 +07

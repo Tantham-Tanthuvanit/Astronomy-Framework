@@ -8,11 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/tantham-tanthuvanit/projects/AstronomyFramework/src/orbital_mechanics/gravity.cpp" "CMakeFiles/unit_tests_runner.dir/src/orbital_mechanics/gravity.cpp.o" "gcc" "CMakeFiles/unit_tests_runner.dir/src/orbital_mechanics/gravity.cpp.o.d"
-  "/home/tantham-tanthuvanit/projects/AstronomyFramework/src/orbital_mechanics/keplers_laws.cpp" "CMakeFiles/unit_tests_runner.dir/src/orbital_mechanics/keplers_laws.cpp.o" "gcc" "CMakeFiles/unit_tests_runner.dir/src/orbital_mechanics/keplers_laws.cpp.o.d"
-  "/home/tantham-tanthuvanit/projects/AstronomyFramework/src/orbital_mechanics/misc.cpp" "CMakeFiles/unit_tests_runner.dir/src/orbital_mechanics/misc.cpp.o" "gcc" "CMakeFiles/unit_tests_runner.dir/src/orbital_mechanics/misc.cpp.o.d"
-  "/home/tantham-tanthuvanit/projects/AstronomyFramework/unit_tests/test_main.cpp" "CMakeFiles/unit_tests_runner.dir/unit_tests/test_main.cpp.o" "gcc" "CMakeFiles/unit_tests_runner.dir/unit_tests/test_main.cpp.o.d"
-  "" "unit_tests_runner" "gcc" "CMakeFiles/unit_tests_runner.dir/link.d"
+  "/home/tan/projects/Astronomy-Framework/unit_tests/test_main.cpp" "CMakeFiles/unit_tests_runner.dir/unit_tests/test_main.cpp.o" "gcc" "CMakeFiles/unit_tests_runner.dir/unit_tests/test_main.cpp.o.d"
+  "" "bin/unit_tests_runner" "gcc" "CMakeFiles/unit_tests_runner.dir/link.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

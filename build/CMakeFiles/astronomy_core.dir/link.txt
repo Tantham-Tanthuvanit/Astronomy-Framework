@@ -1,0 +1,2 @@
+/usr/bin/ar qc libastronomy_core.a CMakeFiles/astronomy_core.dir/src/orbital_mechanics/gravity.cpp.o CMakeFiles/astronomy_core.dir/src/orbital_mechanics/keplers_laws.cpp.o CMakeFiles/astronomy_core.dir/src/orbital_mechanics/misc.cpp.o
+/usr/bin/ranlib libastronomy_core.a

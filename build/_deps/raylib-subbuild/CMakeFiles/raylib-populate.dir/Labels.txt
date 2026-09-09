@@ -1,14 +1,14 @@
 # Target labels
  raylib-populate
 # Source files and their labels
-/home/tantham-tanthuvanit/projects/AstronomyFramework/build/_deps/raylib-subbuild/CMakeFiles/raylib-populate
-/home/tantham-tanthuvanit/projects/AstronomyFramework/build/_deps/raylib-subbuild/CMakeFiles/raylib-populate.rule
-/home/tantham-tanthuvanit/projects/AstronomyFramework/build/_deps/raylib-subbuild/CMakeFiles/raylib-populate-complete.rule
-/home/tantham-tanthuvanit/projects/AstronomyFramework/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-build.rule
-/home/tantham-tanthuvanit/projects/AstronomyFramework/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-configure.rule
-/home/tantham-tanthuvanit/projects/AstronomyFramework/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-download.rule
-/home/tantham-tanthuvanit/projects/AstronomyFramework/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-install.rule
-/home/tantham-tanthuvanit/projects/AstronomyFramework/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-mkdir.rule
-/home/tantham-tanthuvanit/projects/AstronomyFramework/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-patch.rule
-/home/tantham-tanthuvanit/projects/AstronomyFramework/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-test.rule
-/home/tantham-tanthuvanit/projects/AstronomyFramework/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-update.rule
+/home/tan/projects/Astronomy-Framework/build/_deps/raylib-subbuild/CMakeFiles/raylib-populate
+/home/tan/projects/Astronomy-Framework/build/_deps/raylib-subbuild/CMakeFiles/raylib-populate.rule
+/home/tan/projects/Astronomy-Framework/build/_deps/raylib-subbuild/CMakeFiles/raylib-populate-complete.rule
+/home/tan/projects/Astronomy-Framework/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-build.rule
+/home/tan/projects/Astronomy-Framework/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-configure.rule
+/home/tan/projects/Astronomy-Framework/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-download.rule
+/home/tan/projects/Astronomy-Framework/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-install.rule
+/home/tan/projects/Astronomy-Framework/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-mkdir.rule
+/home/tan/projects/Astronomy-Framework/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-patch.rule
+/home/tan/projects/Astronomy-Framework/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-test.rule
+/home/tan/projects/Astronomy-Framework/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-update.rule

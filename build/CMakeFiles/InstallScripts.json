@@ -1,11 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"/home/tantham-tanthuvanit/projects/AstronomyFramework/build/cmake_install.cmake",
-		"/home/tantham-tanthuvanit/projects/AstronomyFramework/build/_deps/raylib-build/cmake_install.cmake",
-		"/home/tantham-tanthuvanit/projects/AstronomyFramework/build/_deps/raylib-build/raylib/cmake_install.cmake",
-		"/home/tantham-tanthuvanit/projects/AstronomyFramework/build/_deps/raylib-build/raylib/external/glfw/cmake_install.cmake",
-		"/home/tantham-tanthuvanit/projects/AstronomyFramework/build/_deps/raylib-build/raylib/external/glfw/src/cmake_install.cmake"
+		"/home/tan/projects/Astronomy-Framework/build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

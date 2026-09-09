@@ -1,8 +1,8 @@
-if(NOT EXISTS "/home/tantham-tanthuvanit/projects/AstronomyFramework/build/install_manifest.txt")
-  message(FATAL_ERROR "Cannot find install manifest: /home/tantham-tanthuvanit/projects/AstronomyFramework/build/install_manifest.txt")
+if(NOT EXISTS "/home/tan/projects/Astronomy-Framework/build/install_manifest.txt")
+  message(FATAL_ERROR "Cannot find install manifest: /home/tan/projects/Astronomy-Framework/build/install_manifest.txt")
 endif()
 
-file(READ "/home/tantham-tanthuvanit/projects/AstronomyFramework/build/install_manifest.txt" files)
+file(READ "/home/tan/projects/Astronomy-Framework/build/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 foreach(file ${files})
   message(STATUS "Uninstalling $ENV{DESTDIR}${file}")

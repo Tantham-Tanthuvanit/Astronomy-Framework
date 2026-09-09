@@ -6,22 +6,22 @@ cmake_minimum_required(VERSION ${CMAKE_VERSION}) # this file comes with cmake
 # If CMAKE_DISABLE_SOURCE_CHANGES is set to true and the source directory is an
 # existing directory in our source tree, calling file(MAKE_DIRECTORY) on it
 # would cause a fatal error, even though it would be a no-op.
-if(NOT EXISTS "/home/tantham-tanthuvanit/projects/AstronomyFramework/build/_deps/raylib-src")
-  file(MAKE_DIRECTORY "/home/tantham-tanthuvanit/projects/AstronomyFramework/build/_deps/raylib-src")
+if(NOT EXISTS "/home/tan/projects/Astronomy-Framework/build/_deps/raylib-src")
+  file(MAKE_DIRECTORY "/home/tan/projects/Astronomy-Framework/build/_deps/raylib-src")
 endif()
 file(MAKE_DIRECTORY
-  "/home/tantham-tanthuvanit/projects/AstronomyFramework/build/_deps/raylib-build"
-  "/home/tantham-tanthuvanit/projects/AstronomyFramework/build/_deps/raylib-subbuild/raylib-populate-prefix"
-  "/home/tantham-tanthuvanit/projects/AstronomyFramework/build/_deps/raylib-subbuild/raylib-populate-prefix/tmp"
-  "/home/tantham-tanthuvanit/projects/AstronomyFramework/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp"
-  "/home/tantham-tanthuvanit/projects/AstronomyFramework/build/_deps/raylib-subbuild/raylib-populate-prefix/src"
-  "/home/tantham-tanthuvanit/projects/AstronomyFramework/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp"
+  "/home/tan/projects/Astronomy-Framework/build/_deps/raylib-build"
+  "/home/tan/projects/Astronomy-Framework/build/_deps/raylib-subbuild/raylib-populate-prefix"
+  "/home/tan/projects/Astronomy-Framework/build/_deps/raylib-subbuild/raylib-populate-prefix/tmp"
+  "/home/tan/projects/Astronomy-Framework/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp"
+  "/home/tan/projects/Astronomy-Framework/build/_deps/raylib-subbuild/raylib-populate-prefix/src"
+  "/home/tan/projects/Astronomy-Framework/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "/home/tantham-tanthuvanit/projects/AstronomyFramework/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/${subDir}")
+    file(MAKE_DIRECTORY "/home/tan/projects/Astronomy-Framework/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "/home/tantham-tanthuvanit/projects/AstronomyFramework/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "/home/tan/projects/Astronomy-Framework/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp${cfgdir}") # cfgdir has leading slash
 endif()
