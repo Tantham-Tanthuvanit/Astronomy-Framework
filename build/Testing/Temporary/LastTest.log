@@ -1,20 +1,28 @@
-Start testing: Sep 09 22:43 +07
+Start testing: Sep 13 21:56 +07
 ----------------------------------------------------------
 1/1 Testing: unit_tests
 1/1 Test: unit_tests
 Command: "/home/tan/projects/Astronomy-Framework/build/bin/unit_tests_runner"
 Directory: /home/tan/projects/Astronomy-Framework/build/bin
-"unit_tests" start time: Sep 09 22:43 +07
+"unit_tests" start time: Sep 13 21:56 +07
 Output:
 ----------------------------------------------------------
 "multiply scientific notation"
+Input 1: 2*10^10
+Input 2: 2*10^5
+Output: 4*10^15
+Test succesful!
 "divide scientific notation"
+Input 1: 4*10^10
+Input 2: 2*10^5
+Output: 8*10^15
+Test failed!
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"unit_tests" end time: Sep 09 22:43 +07
+"unit_tests" end time: Sep 13 21:56 +07
 "unit_tests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Sep 09 22:43 +07
+End testing: Sep 13 21:56 +07

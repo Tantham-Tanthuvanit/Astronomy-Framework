@@ -71,7 +71,7 @@ endif()
 # 5. Core Library (astronomy_core)
 # -----------------------------------------------------------------------------
 # Collect core sources (all src/*.cpp excluding main.cpp)
-file(GLOB_RECURSE CORE_SOURCES
+file(GLOB_RECURSE CORE_SOURCES CONFIGURE_DEPENDS
     "src/*.cpp"
 )
 list(FILTER CORE_SOURCES EXCLUDE REGEX ".*/main\\.cpp$")

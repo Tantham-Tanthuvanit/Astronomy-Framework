@@ -72,10 +72,24 @@ include CMakeFiles/astronomy_core.dir/flags.make
 CMakeFiles/astronomy_core.dir/codegen:
 .PHONY : CMakeFiles/astronomy_core.dir/codegen
 
+CMakeFiles/astronomy_core.dir/src/core/math.cpp.o: CMakeFiles/astronomy_core.dir/flags.make
+CMakeFiles/astronomy_core.dir/src/core/math.cpp.o: /home/tan/projects/Astronomy-Framework/src/core/math.cpp
+CMakeFiles/astronomy_core.dir/src/core/math.cpp.o: CMakeFiles/astronomy_core.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tan/projects/Astronomy-Framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/astronomy_core.dir/src/core/math.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/astronomy_core.dir/src/core/math.cpp.o -MF CMakeFiles/astronomy_core.dir/src/core/math.cpp.o.d -o CMakeFiles/astronomy_core.dir/src/core/math.cpp.o -c /home/tan/projects/Astronomy-Framework/src/core/math.cpp
+
+CMakeFiles/astronomy_core.dir/src/core/math.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/astronomy_core.dir/src/core/math.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tan/projects/Astronomy-Framework/src/core/math.cpp > CMakeFiles/astronomy_core.dir/src/core/math.cpp.i
+
+CMakeFiles/astronomy_core.dir/src/core/math.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/astronomy_core.dir/src/core/math.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tan/projects/Astronomy-Framework/src/core/math.cpp -o CMakeFiles/astronomy_core.dir/src/core/math.cpp.s
+
 CMakeFiles/astronomy_core.dir/src/orbital_mechanics/gravity.cpp.o: CMakeFiles/astronomy_core.dir/flags.make
 CMakeFiles/astronomy_core.dir/src/orbital_mechanics/gravity.cpp.o: /home/tan/projects/Astronomy-Framework/src/orbital_mechanics/gravity.cpp
 CMakeFiles/astronomy_core.dir/src/orbital_mechanics/gravity.cpp.o: CMakeFiles/astronomy_core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tan/projects/Astronomy-Framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/astronomy_core.dir/src/orbital_mechanics/gravity.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tan/projects/Astronomy-Framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/astronomy_core.dir/src/orbital_mechanics/gravity.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/astronomy_core.dir/src/orbital_mechanics/gravity.cpp.o -MF CMakeFiles/astronomy_core.dir/src/orbital_mechanics/gravity.cpp.o.d -o CMakeFiles/astronomy_core.dir/src/orbital_mechanics/gravity.cpp.o -c /home/tan/projects/Astronomy-Framework/src/orbital_mechanics/gravity.cpp
 
 CMakeFiles/astronomy_core.dir/src/orbital_mechanics/gravity.cpp.i: cmake_force
@@ -89,7 +103,7 @@ CMakeFiles/astronomy_core.dir/src/orbital_mechanics/gravity.cpp.s: cmake_force
 CMakeFiles/astronomy_core.dir/src/orbital_mechanics/keplers_laws.cpp.o: CMakeFiles/astronomy_core.dir/flags.make
 CMakeFiles/astronomy_core.dir/src/orbital_mechanics/keplers_laws.cpp.o: /home/tan/projects/Astronomy-Framework/src/orbital_mechanics/keplers_laws.cpp
 CMakeFiles/astronomy_core.dir/src/orbital_mechanics/keplers_laws.cpp.o: CMakeFiles/astronomy_core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tan/projects/Astronomy-Framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/astronomy_core.dir/src/orbital_mechanics/keplers_laws.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tan/projects/Astronomy-Framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/astronomy_core.dir/src/orbital_mechanics/keplers_laws.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/astronomy_core.dir/src/orbital_mechanics/keplers_laws.cpp.o -MF CMakeFiles/astronomy_core.dir/src/orbital_mechanics/keplers_laws.cpp.o.d -o CMakeFiles/astronomy_core.dir/src/orbital_mechanics/keplers_laws.cpp.o -c /home/tan/projects/Astronomy-Framework/src/orbital_mechanics/keplers_laws.cpp
 
 CMakeFiles/astronomy_core.dir/src/orbital_mechanics/keplers_laws.cpp.i: cmake_force
@@ -103,7 +117,7 @@ CMakeFiles/astronomy_core.dir/src/orbital_mechanics/keplers_laws.cpp.s: cmake_fo
 CMakeFiles/astronomy_core.dir/src/orbital_mechanics/misc.cpp.o: CMakeFiles/astronomy_core.dir/flags.make
 CMakeFiles/astronomy_core.dir/src/orbital_mechanics/misc.cpp.o: /home/tan/projects/Astronomy-Framework/src/orbital_mechanics/misc.cpp
 CMakeFiles/astronomy_core.dir/src/orbital_mechanics/misc.cpp.o: CMakeFiles/astronomy_core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tan/projects/Astronomy-Framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/astronomy_core.dir/src/orbital_mechanics/misc.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tan/projects/Astronomy-Framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/astronomy_core.dir/src/orbital_mechanics/misc.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/astronomy_core.dir/src/orbital_mechanics/misc.cpp.o -MF CMakeFiles/astronomy_core.dir/src/orbital_mechanics/misc.cpp.o.d -o CMakeFiles/astronomy_core.dir/src/orbital_mechanics/misc.cpp.o -c /home/tan/projects/Astronomy-Framework/src/orbital_mechanics/misc.cpp
 
 CMakeFiles/astronomy_core.dir/src/orbital_mechanics/misc.cpp.i: cmake_force
@@ -116,6 +130,7 @@ CMakeFiles/astronomy_core.dir/src/orbital_mechanics/misc.cpp.s: cmake_force
 
 # Object files for target astronomy_core
 astronomy_core_OBJECTS = \
+"CMakeFiles/astronomy_core.dir/src/core/math.cpp.o" \
 "CMakeFiles/astronomy_core.dir/src/orbital_mechanics/gravity.cpp.o" \
 "CMakeFiles/astronomy_core.dir/src/orbital_mechanics/keplers_laws.cpp.o" \
 "CMakeFiles/astronomy_core.dir/src/orbital_mechanics/misc.cpp.o"
@@ -123,12 +138,13 @@ astronomy_core_OBJECTS = \
 # External object files for target astronomy_core
 astronomy_core_EXTERNAL_OBJECTS =
 
+libastronomy_core.a: CMakeFiles/astronomy_core.dir/src/core/math.cpp.o
 libastronomy_core.a: CMakeFiles/astronomy_core.dir/src/orbital_mechanics/gravity.cpp.o
 libastronomy_core.a: CMakeFiles/astronomy_core.dir/src/orbital_mechanics/keplers_laws.cpp.o
 libastronomy_core.a: CMakeFiles/astronomy_core.dir/src/orbital_mechanics/misc.cpp.o
 libastronomy_core.a: CMakeFiles/astronomy_core.dir/build.make
 libastronomy_core.a: CMakeFiles/astronomy_core.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/tan/projects/Astronomy-Framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libastronomy_core.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/tan/projects/Astronomy-Framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libastronomy_core.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/astronomy_core.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/astronomy_core.dir/link.txt --verbose=$(VERBOSE)
 

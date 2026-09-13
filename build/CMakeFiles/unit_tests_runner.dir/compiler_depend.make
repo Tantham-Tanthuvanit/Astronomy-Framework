@@ -3,6 +3,8 @@
 
 CMakeFiles/unit_tests_runner.dir/unit_tests/test_main.cpp.o: /home/tan/projects/Astronomy-Framework/unit_tests/test_main.cpp \
   /home/tan/projects/Astronomy-Framework/external/json.hpp \
+  /home/tan/projects/Astronomy-Framework/include/core/dtypes.h \
+  /home/tan/projects/Astronomy-Framework/include/core/math.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -264,6 +266,7 @@ CMakeFiles/unit_tests_runner.dir/unit_tests/test_main.cpp.o: /home/tan/projects/
   /usr/include/c++/16/ratio \
   /usr/include/c++/16/sstream \
   /usr/include/c++/16/stdexcept \
+  /usr/include/c++/16/stdfloat \
   /usr/include/c++/16/streambuf \
   /usr/include/c++/16/string \
   /usr/include/c++/16/string_view \
@@ -486,6 +489,8 @@ libastronomy_core.a:
 
 /usr/include/c++/16/streambuf:
 
+/usr/include/c++/16/stdfloat:
+
 /usr/include/c++/16/sstream:
 
 /usr/include/c++/16/ratio:
@@ -493,8 +498,6 @@ libastronomy_core.a:
 /usr/include/c++/16/pstl/glue_numeric_defs.h:
 
 /usr/include/c++/16/pstl/glue_memory_defs.h:
-
-/usr/include/c++/16/bits/gslice_array.h:
 
 /usr/include/c++/16/bits/functexcept.h:
 
@@ -550,23 +553,21 @@ libastronomy_core.a:
 
 /usr/include/c++/16/bits/atomic_base.h:
 
+/usr/include/c++/16/pstl/execution_defs.h:
+
+/usr/include/c++/16/bits/allocator.h:
+
 /usr/include/bits/time64.h:
 
 /usr/include/bits/stdlib-float.h:
 
 /usr/include/c++/16/bits/alloc_traits.h:
 
-/usr/include/c++/16/bits/gslice.h:
-
 /usr/include/c++/16/x86_64-pc-linux-gnu/bits/atomic_word.h:
 
 /usr/include/c++/16/array:
 
 /usr/include/c++/16/istream:
-
-/usr/include/c++/16/bits/allocator.h:
-
-/usr/include/c++/16/pstl/execution_defs.h:
 
 /usr/include/c++/16/bits/basic_ios.h:
 
@@ -638,7 +639,9 @@ libastronomy_core.a:
 
 /usr/include/bits/types/__locale_t.h:
 
-/usr/include/bits/libc-header-start.h:
+/usr/include/c++/16/string_view:
+
+/usr/include/bits/types/__fpos64_t.h:
 
 /usr/include/c++/16/bits/forward_list.h:
 
@@ -662,10 +665,6 @@ libastronomy_core.a:
 
 /usr/include/bits/timex.h:
 
-/usr/include/libintl.h:
-
-/usr/include/bits/endianness.h:
-
 /usr/include/c++/16/bits/stl_multimap.h:
 
 /usr/include/c++/16/tr1/bessel_function.tcc:
@@ -679,6 +678,12 @@ libastronomy_core.a:
 /usr/include/bits/byteswap.h:
 
 /usr/include/c++/16/bits/requires_hosted.h:
+
+/home/tan/projects/Astronomy-Framework/include/core/math.h:
+
+/usr/include/c++/16/clocale:
+
+/usr/include/asm-generic/errno-base.h:
 
 /usr/include/assert.h:
 
@@ -705,6 +710,32 @@ libastronomy_core.a:
 /usr/include/c++/16/x86_64-pc-linux-gnu/bits/gthr-default.h:
 
 /usr/include/c++/16/bits/locale_facets_nonio.tcc:
+
+/usr/include/libintl.h:
+
+/usr/include/bits/endianness.h:
+
+/home/tan/projects/Astronomy-Framework/include/core/dtypes.h:
+
+/usr/include/c++/16/bits/range_access.h:
+
+/usr/include/c++/16/backward/auto_ptr.h:
+
+/usr/include/linux/stddef.h:
+
+/usr/include/c++/16/any:
+
+/usr/include/c++/16/version:
+
+/usr/include/asm-generic/int-ll64.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/libatomic.so:
+
+/usr/include/bits/mathcalls-macros.h:
+
+/usr/include/bits/time.h:
+
+/usr/include/asm/posix_types.h:
 
 /usr/include/bits/types/struct_FILE.h:
 
@@ -734,18 +765,6 @@ libastronomy_core.a:
 
 /usr/include/c++/16/bits/cxxabi_init_exception.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/16/libatomic.so:
-
-/usr/include/bits/mathcalls-macros.h:
-
-/usr/include/c++/16/version:
-
-/usr/include/asm-generic/int-ll64.h:
-
-/usr/include/c++/16/clocale:
-
-/usr/include/asm-generic/errno-base.h:
-
 /usr/include/c++/16/bits/quoted_string.h:
 
 /usr/include/c++/16/bits/stl_map.h:
@@ -754,9 +773,7 @@ libastronomy_core.a:
 
 /usr/include/asm/bitsperlong.h:
 
-/usr/include/bits/time.h:
-
-/usr/include/asm/posix_types.h:
+/usr/include/bits/libc-header-start.h:
 
 /usr/include/bits/math-vector.h:
 
@@ -768,31 +785,17 @@ libastronomy_core.a:
 
 /usr/include/bits/pthread_stack_min-dynamic.h:
 
-/usr/include/c++/16/backward/auto_ptr.h:
-
-/usr/include/linux/stddef.h:
-
-/usr/include/c++/16/any:
-
 /usr/lib/libc.so:
 
 /usr/include/bits/pthreadtypes.h:
 
 /usr/include/bits/select.h:
 
-/usr/include/c++/16/string_view:
-
-/usr/include/bits/types/__fpos64_t.h:
-
 /usr/include/bits/waitstatus.h:
 
 /usr/include/bits/wchar.h:
 
 /usr/include/bits/types/struct___jmp_buf_tag.h:
-
-/usr/include/c++/16/forward_list:
-
-/usr/include/c++/16/numeric:
 
 /usr/include/c++/16/x86_64-pc-linux-gnu/bits/c++config.h:
 
@@ -862,6 +865,14 @@ libastronomy_core.a:
 
 /usr/include/c++/16/cerrno:
 
+/usr/include/c++/16/bits/gslice.h:
+
+/usr/include/c++/16/bits/gslice_array.h:
+
+/usr/include/c++/16/numeric:
+
+/usr/include/c++/16/forward_list:
+
 /usr/include/bits/mathcalls-narrow.h:
 
 /usr/include/c++/16/bits/refwrap.h:
@@ -930,8 +941,6 @@ libastronomy_core.a:
 
 /usr/include/c++/16/bits/postypes.h:
 
-/usr/include/c++/16/bits/range_access.h:
-
 /usr/include/bits/stdint-least.h:
 
 /usr/include/c++/16/bits/shared_ptr_base.h:
@@ -994,9 +1003,9 @@ CMakeFiles/unit_tests_runner.dir/unit_tests/test_main.cpp.o:
 
 /usr/include/c++/16/bits/uses_allocator_args.h:
 
-/usr/include/c++/16/bits/stl_algobase.h:
-
 /usr/include/c++/16/bits/stl_iterator_base_funcs.h:
+
+/usr/include/c++/16/bits/stl_algobase.h:
 
 /usr/include/c++/16/bits/valarray_after.h:
 

@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/tan/projects/Astronomy-Framework/src/core/math.cpp" "CMakeFiles/astronomy_core.dir/src/core/math.cpp.o" "gcc" "CMakeFiles/astronomy_core.dir/src/core/math.cpp.o.d"
   "/home/tan/projects/Astronomy-Framework/src/orbital_mechanics/gravity.cpp" "CMakeFiles/astronomy_core.dir/src/orbital_mechanics/gravity.cpp.o" "gcc" "CMakeFiles/astronomy_core.dir/src/orbital_mechanics/gravity.cpp.o.d"
   "/home/tan/projects/Astronomy-Framework/src/orbital_mechanics/keplers_laws.cpp" "CMakeFiles/astronomy_core.dir/src/orbital_mechanics/keplers_laws.cpp.o" "gcc" "CMakeFiles/astronomy_core.dir/src/orbital_mechanics/keplers_laws.cpp.o.d"
   "/home/tan/projects/Astronomy-Framework/src/orbital_mechanics/misc.cpp" "CMakeFiles/astronomy_core.dir/src/orbital_mechanics/misc.cpp.o" "gcc" "CMakeFiles/astronomy_core.dir/src/orbital_mechanics/misc.cpp.o.d"

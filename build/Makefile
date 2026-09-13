@@ -188,6 +188,7 @@ preinstall/fast:
 
 # clear depends
 depend:
+	$(CMAKE_COMMAND) -P /home/tan/projects/Astronomy-Framework/build/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
@@ -594,6 +595,30 @@ unit_tests_runner/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/unit_tests_runner.dir/build.make CMakeFiles/unit_tests_runner.dir/build
 .PHONY : unit_tests_runner/fast
 
+src/core/math.o: src/core/math.cpp.o
+.PHONY : src/core/math.o
+
+# target to build an object file
+src/core/math.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/astronomy_core.dir/build.make CMakeFiles/astronomy_core.dir/src/core/math.cpp.o
+.PHONY : src/core/math.cpp.o
+
+src/core/math.i: src/core/math.cpp.i
+.PHONY : src/core/math.i
+
+# target to preprocess a source file
+src/core/math.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/astronomy_core.dir/build.make CMakeFiles/astronomy_core.dir/src/core/math.cpp.i
+.PHONY : src/core/math.cpp.i
+
+src/core/math.s: src/core/math.cpp.s
+.PHONY : src/core/math.s
+
+# target to generate assembly for a file
+src/core/math.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/astronomy_core.dir/build.make CMakeFiles/astronomy_core.dir/src/core/math.cpp.s
+.PHONY : src/core/math.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -760,6 +785,9 @@ help:
 	@echo "... astronomy_core"
 	@echo "... astronomy_framework"
 	@echo "... unit_tests_runner"
+	@echo "... src/core/math.o"
+	@echo "... src/core/math.i"
+	@echo "... src/core/math.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
@@ -786,6 +814,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
+	$(CMAKE_COMMAND) -P /home/tan/projects/Astronomy-Framework/build/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

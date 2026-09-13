@@ -225,7 +225,9 @@ CMakeFiles/unit_tests_runner.dir/unit_tests/test_main.cpp.o: \
  /usr/include/c++/16/optional /usr/include/c++/16/numeric \
  /usr/include/c++/16/bits/stl_numeric.h \
  /usr/include/c++/16/pstl/glue_numeric_defs.h /usr/include/c++/16/any \
- /usr/include/c++/16/fstream \
+ /home/tan/projects/Astronomy-Framework/include/core/math.h \
+ /home/tan/projects/Astronomy-Framework/include/core/dtypes.h \
+ /usr/include/c++/16/stdfloat /usr/include/c++/16/fstream \
  /usr/include/c++/16/x86_64-pc-linux-gnu/bits/basic_file.h \
  /usr/include/c++/16/x86_64-pc-linux-gnu/bits/c++io.h \
  /usr/include/c++/16/bits/fstream.tcc /usr/include/c++/16/iostream

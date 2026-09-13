@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/astronomy_core.dir/src/core/math.cpp.o"
+  "CMakeFiles/astronomy_core.dir/src/core/math.cpp.o.d"
   "CMakeFiles/astronomy_core.dir/src/orbital_mechanics/gravity.cpp.o"
   "CMakeFiles/astronomy_core.dir/src/orbital_mechanics/gravity.cpp.o.d"
   "CMakeFiles/astronomy_core.dir/src/orbital_mechanics/keplers_laws.cpp.o"

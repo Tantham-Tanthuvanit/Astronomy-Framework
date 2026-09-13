@@ -1,6 +1,12 @@
 [
 {
   "directory": "/home/tan/projects/Astronomy-Framework/build",
+  "command": "/usr/bin/c++ -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -DUSE_LIBTYPE_SHARED -I/home/tan/projects/Astronomy-Framework -I/home/tan/projects/Astronomy-Framework/include -I/home/tan/projects/Astronomy-Framework/external -std=c++17 -fPIC -Wall -Wextra -o CMakeFiles/astronomy_core.dir/src/core/math.cpp.o -c /home/tan/projects/Astronomy-Framework/src/core/math.cpp",
+  "file": "/home/tan/projects/Astronomy-Framework/src/core/math.cpp",
+  "output": "CMakeFiles/astronomy_core.dir/src/core/math.cpp.o"
+},
+{
+  "directory": "/home/tan/projects/Astronomy-Framework/build",
   "command": "/usr/bin/c++ -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -DUSE_LIBTYPE_SHARED -I/home/tan/projects/Astronomy-Framework -I/home/tan/projects/Astronomy-Framework/include -I/home/tan/projects/Astronomy-Framework/external -std=c++17 -fPIC -Wall -Wextra -o CMakeFiles/astronomy_core.dir/src/orbital_mechanics/gravity.cpp.o -c /home/tan/projects/Astronomy-Framework/src/orbital_mechanics/gravity.cpp",
   "file": "/home/tan/projects/Astronomy-Framework/src/orbital_mechanics/gravity.cpp",
   "output": "CMakeFiles/astronomy_core.dir/src/orbital_mechanics/gravity.cpp.o"
