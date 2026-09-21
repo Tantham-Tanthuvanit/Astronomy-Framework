@@ -5,6 +5,7 @@
 #include <iostream>
 #include <string>
 #include <map>
+#include <unordered_map>
 
 typedef std::map<std::string, nlohmann::basic_json<>> Object;
 
@@ -13,6 +14,10 @@ using json = nlohmann::json;
 void check_multiply(Object test);
 
 int main() {
+
+	std::unordered_map<std::string, std::function<void(Object)>> function_map = {
+		{"sn:multiply",check_multiply}
+	};
 
 	std::ifstream f("./math_test.json");
 
