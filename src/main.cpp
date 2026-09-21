@@ -2,6 +2,6 @@
 using namespace std;
 
 int main() {
-	cout << "Hello, world!" << endl;
+	// put simulation code here
 	return 0;
 }

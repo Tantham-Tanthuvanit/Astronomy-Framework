@@ -12,11 +12,13 @@ typedef std::map<std::string, nlohmann::basic_json<>> Object;
 using json = nlohmann::json;
 
 void check_multiply(Object test);
+void check_divide(Object test);
 
 int main() {
 
 	std::unordered_map<std::string, std::function<void(Object)>> function_map = {
-		{"sn:multiply",check_multiply}
+		{"sn:multiply",check_multiply},
+		{"sn:divide"  ,check_divide},
 	};
 
 	std::ifstream f("./math_test.json");
